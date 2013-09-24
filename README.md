@@ -1,7 +1,7 @@
-- Co-Cron
+Co-Cron
 ====
 * Basic module to manage CronJobs for your Compound.js Application
-* Based on the excellent npm cron[https://npmjs.org/package/cron] module
+* Based on the excellent npm [cron](https://npmjs.org/package/cron) module
 * Check it out for more documentation on Node.js cron implementation
 
 Usage
@@ -28,15 +28,19 @@ Cron_Wrapper#daemonize_route(namespace, options)
   ```
 
 Cron_Wrapper#job(namespace, options)
+
 A convience wrapper for cron's base CronJob creation method
 
 Cron_Wrapper#remove(namespace)
+
 Stops & removes a job stored on a namespace from the Cron_Wrapper.jobs object
 
 Cron_Wrapper#start(namespace)
+
 Starts a job stored on the namespace in the Cron_Wrapper.jobs object
 
 Cron_Wrapper#stop(namespace)
+
 Stops a job stored on the namespace in the Cron_Wrapper.jobs object
   
 
