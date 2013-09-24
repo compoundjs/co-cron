@@ -1,6 +1,6 @@
 {
   "name": "co-cron",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Cron tasks for compound apps",
   "main": "lib/index.js",
   "repository": {
