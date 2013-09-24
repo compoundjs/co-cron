@@ -17,6 +17,8 @@ Methods
 --------------
 
 **Cron_Wrapper#daemonize_route(namespace, options)**
+  
+  daemonize a specific route on your compound.js app so you can keep your code in the controller and still make it client accessible
 
   ```coffeescript
   compound.cron.daemonize_route 'test',
@@ -41,7 +43,6 @@ Methods
     start: false                    # to autostart the job or not
     timeZone: "America/Los_Angeles" # schedule it based on a specific timezone 
   ```
-
 
 A convience wrapper for cron's base CronJob creation method
 
