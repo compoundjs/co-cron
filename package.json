@@ -1,11 +1,8 @@
 {
-  "name": "compound-cron",
+  "name": "co-cron",
   "version": "0.0.0",
   "description": "Cron tasks for compound apps",
-  "main": "index.coffee",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "main": "lib/index.js",
   "repository": {
     "type": "git",
     "url": "http://github.com/ondreian/co-cron.git"
@@ -15,5 +12,9 @@
     "cron"
   ],
   "author": "Benjamin Clos",
-  "license": "BSD"
+  "license": "BSD",
+  "dependencies": {
+    "cron": "~1.0.1",
+    "compound": "~1.1.7-8"
+  }
 }
