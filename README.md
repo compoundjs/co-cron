@@ -2,7 +2,7 @@ Co-Cron
 ====
 * Basic module to manage CronJobs for your Compound.js Application
 * Based on the excellent npm [cron](https://npmjs.org/package/cron) module
-* Check it out for more documentation on Node.js cron implementation
+* Check [cron](https://npmjs.org/package/cron) out for more documentation on Node.js cron implementation
 
 Usage
 -------------
