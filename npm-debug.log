@@ -1,5 +1,5 @@
 0 info it worked if it ends with ok
-1 verbose cli [ 'node', '/usr/local/bin/npm', 'version', '1.0.0' ]
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'version', '1.0.1' ]
 2 info using npm@1.1.46
 3 info using node@v0.8.14
 4 verbose config file /home/webapps/.npmrc
@@ -18,7 +18,7 @@
 10 error or email it to:
 10 error     <npm-@googlegroups.com>
 11 error System Linux 2.6.32-042stab068.8
-12 error command "node" "/usr/local/bin/npm" "version" "1.0.0"
+12 error command "node" "/usr/local/bin/npm" "version" "1.0.1"
 13 error cwd /home/modules/co-cron
 14 error node -v v0.8.14
 15 error npm -v 1.1.46
