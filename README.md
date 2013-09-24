@@ -28,6 +28,20 @@ Methods
   ```
 
 **Cron_Wrapper#job(namespace, options)**
+  ```coffeescript
+  task = ->
+      # Runs every weekday (Monday through Friday)
+      # at 11:30:00 AM. It does not run on Saturday
+      # or Sunday.
+      console.log "I am a lovely function"
+
+  compound.cron.job 'test',
+    cronTime: '00 30 11 * * 1-5'    # cron time
+    onTick: task                    # function to perform
+    start: false                    # to autostart the job or not
+    timeZone: "America/Los_Angeles" # schedule it based on a specific timezone 
+  ```
+
 
 A convience wrapper for cron's base CronJob creation method
 
